@@ -53,12 +53,50 @@
   padding: 0.5rem 1rem;
 }
 
-.group {
-
+.group h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .group img {
-    height: 200px;
+    height: 350px;
     object-fit: cover;
-    object-position: top;
+    object-position: center 10%;
+    z-index: -1;
+}
+
+.group > div {
+    position: relative;
+    width: 70%;
+    background-color: var(--blue-800);
+    margin: -2rem auto 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.group > div p {
+    color: var(--white);
+    max-width: 80%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.group > div > div {
+    display: flex;
+    gap: 1rem;
+}
+
+.group .card {
+    background-color: var(--blue-300);
+    width: 30%;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
