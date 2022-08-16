@@ -123,7 +123,7 @@ nav menu li.active {
 }
 
 main {
-    margin-top: calc(100px + 2rem);
+  margin-top: calc(100px + 2rem);
 }
 
 section {
@@ -136,8 +136,8 @@ footer {
   background-color: var(--blue-800);
   padding: 3rem;
 
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1440px) {
