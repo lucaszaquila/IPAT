@@ -19,6 +19,11 @@
   --filter-white: invert(94%) sepia(16%) saturate(429%) hue-rotate(240deg) brightness(118%) contrast(100%);
 }
 
+@font-face {
+  font-family: "BeVietnam";
+  src: url("../font/be-vietnam/BeVietnam-Regular.ttf") format("ttf");
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -33,7 +38,7 @@ body,
 input,
 textarea,
 button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "BeVietnam", sans-serif;
   font-weight: 400;
 }
 
@@ -158,27 +163,8 @@ footer {
   html {
     font-size: 87.5%;
   }
-
-  footer {
-    grid-template-columns: 1fr;
-  }
-
-  footer ul {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  footer > div {
-    text-align: left;
-  }
 }
 
 @media (max-width: 400px) {
-  nav img {
-    max-width: 150px;
-  }
 
-  .wpp-container {
-    transform: scale(0.9);
-  }
 }

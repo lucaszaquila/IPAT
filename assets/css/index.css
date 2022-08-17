@@ -39,7 +39,6 @@
 
 .ipat > div p {
   margin: 1.5rem 0;
-  font-style: italic;
 }
 
 .ipat > div button {
@@ -47,7 +46,6 @@
   background-color: var(--blue-300);
   text-transform: uppercase;
   font-weight: 700;
-  font-style: italic;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -83,7 +81,6 @@
   max-width: 80%;
   font-size: 0.9rem;
   font-weight: 700;
-  font-style: italic;
 }
 
 .group > div > div {

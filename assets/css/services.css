@@ -17,6 +17,7 @@
 .card p {
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 1.3rem;
 }
 
 .card p span {
@@ -49,7 +50,6 @@
 
 .text p {
   margin-top: 1.5rem;
-  font-style: italic;
   max-width: 70%;
 }
 
@@ -111,9 +111,9 @@
   margin-bottom: 1rem;
 }
 
-#types .half > div > p {
+/* #types .half > div > p {
   font-style: italic;
-}
+} */
 
 #types .half > div > p span {
   font-weight: 700;
@@ -166,7 +166,6 @@
 #sample p {
   background-color: var(--blue-300);
   color: var(--white);
-  font-style: italic;
   line-height: 1.5rem;
   padding: 1rem 2rem;
   margin-left: -2rem;
@@ -210,8 +209,4 @@
   left: 50%;
   bottom: -3.5rem;
   transform: translateX(-50%);
-}
-
-#collect .card p {
-    line-height: 1.3rem;
 }
