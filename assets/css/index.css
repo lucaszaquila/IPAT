@@ -57,7 +57,7 @@
   margin-bottom: 1rem;
 }
 
-.group img {
+.group > img {
   height: 350px;
   object-fit: cover;
   object-position: center 10%;
@@ -96,4 +96,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.group .card img {
+  width: 50%;
+  filter: var(--filter-white);
 }
