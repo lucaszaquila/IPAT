@@ -138,6 +138,20 @@ section {
   margin: 0 auto 5rem auto;
 }
 
+.title {
+  font-size: 3rem;
+  color: var(--blue-800);
+}
+
+.title:before {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 2px;
+  background-color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
 footer {
   color: var(--white);
   background-color: var(--blue-800);

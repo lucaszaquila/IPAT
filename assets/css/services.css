@@ -33,21 +33,6 @@
   justify-content: center;
 }
 
-.text h2 {
-  font-size: 3rem;
-  color: var(--blue-800);
-}
-
-.text h2:before,
-#sample h2:before {
-  content: "";
-  display: block;
-  width: 70%;
-  height: 2px;
-  background-color: var(--black);
-  margin-bottom: 0.5rem;
-}
-
 .text p {
   margin-top: 1.5rem;
   max-width: 70%;
