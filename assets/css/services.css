@@ -47,6 +47,7 @@
 }
 
 .third {
+    padding-left: 0;
   display: grid;
   grid-template-columns: 0.8fr 2fr;
   gap: 2rem;
@@ -95,10 +96,6 @@
   padding: 2rem;
   margin-bottom: 1rem;
 }
-
-/* #types .half > div > p {
-  font-style: italic;
-} */
 
 #types .half > div > p span {
   font-weight: 700;

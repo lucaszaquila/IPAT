@@ -136,9 +136,11 @@ main {
 section {
   max-width: 1300px;
   margin: 0 auto 5rem auto;
+  padding: 1rem;
 }
 
 .title {
+  font-weight: 700;
   font-size: 3rem;
   color: var(--blue-800);
 }
