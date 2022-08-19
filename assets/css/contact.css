@@ -1,0 +1,32 @@
+ul {
+    background-color: var(--blue-800);
+    color: var(--white);
+    padding: 2rem;
+    font-size: 1.3rem;
+    max-width: 500px;
+    height: fit-content;
+}
+
+ul img {
+    width: 1.5rem;
+    filter: var(--filter-white)
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+ul li + li {
+    margin-top: 1rem;
+}
+
+.half {
+    padding: 0 1rem;
+    margin-top: 2rem;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
