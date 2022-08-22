@@ -47,7 +47,7 @@
 }
 
 .third {
-    padding-left: 0;
+  padding-left: 0;
   display: grid;
   grid-template-columns: 0.8fr 2fr;
   gap: 2rem;
@@ -156,7 +156,7 @@
 }
 
 #collect {
-    margin-bottom: 9rem;
+  margin-bottom: 9rem;
 }
 
 #collect > div {

@@ -23,7 +23,6 @@ ul li + li {
 }
 
 .half {
-    padding: 0 1rem;
     margin-top: 2rem;
   
     display: grid;
