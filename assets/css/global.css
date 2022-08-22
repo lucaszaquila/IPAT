@@ -159,7 +159,7 @@ section {
 
   position: fixed;
   top: 0;
-  right: -100%;
+  right: -100vw;
   z-index: 100;
 
   display: grid;
