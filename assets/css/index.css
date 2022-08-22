@@ -54,6 +54,7 @@
 
 #group {
   padding: 0;
+  position: relative;
 }
 
 #group h2 {
@@ -70,15 +71,17 @@
 }
 
 #group > div {
-  position: relative;
   width: 70%;
   background-color: var(--blue-800);
-  margin: -2rem auto 0 auto;
+  margin: 0 auto;
   padding: 1rem;
   border-radius: 5px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  position: relative;
+  top: -2rem;
 }
 
 #group > div p {
@@ -90,6 +93,7 @@
 
 #group > div > div {
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -106,4 +110,80 @@
 #group .card img {
   width: 50%;
   filter: var(--filter-white);
+}
+
+@media screen and (max-width: 1080px) {
+  #ipat {
+    padding: 0;
+  }
+
+  #ipat video {
+    width: 100%;
+  }
+
+  #ipat > div {
+    width: 80%;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+
+  #group > div {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
+  }
+
+  #group > div p {
+    max-width: none;
+  }
+
+  #group .card {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #ipat {
+    padding: 0 1rem;
+  }
+
+  #ipat video {
+    display: none;
+  }
+
+  #ipat > div {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+
+  #group > div {
+    width: 85%;
+
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    top: unset;
+    transform: translateX(-50%);
+  }
+
+  #group > img {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #group {
+    padding: 0 1rem;
+  }
+
+  #group > div {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+  #group > img {
+    display: none;
+  }
 }
