@@ -9,12 +9,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/services.css" />
+
+    <!-- Scripts -->
+    <script src="./assets/js/toggleMenu.js"></script>
   </head>
   <body>
     <nav>
-      <button>
-        <img src="./assets/img/icons/bars-solid.svg" alt="Menu" />
-      </button>
       <a href="./index.html">
         <img src="./assets/img/ipat.png" alt="IPAT" />
         <span>Instituto de Pesquisa A Tribuna</span>
@@ -26,7 +26,23 @@
         <li><a href="./team.html">Equipe</a></li>
         <li><a href="./contact.html">Contato</a></li>
       </menu>
+      <button onclick="toggleMenu()">
+        <img src="./assets/img/icons/bars-solid.svg" alt="Menu" />
+      </button>
     </nav>
+
+    <div id="menu">
+      <button onclick="toggleMenu()">X</button>
+      <span>Menu</span>
+      <menu>
+        <li><a href="./index.html">Sobre</a></li>
+        <li><a href="./services.html">Serviços</a></li>
+        <li><a href="./portfolio.html">Portifólio</a></li>
+        <li><a href="./team.html">Equipe</a></li>
+        <li><a href="./contact.html">Contato</a></li>
+      </menu>
+      <img src="./assets/img/ipat.png" alt="IPAT" />
+    </div>
 
     <main>
       <section id="search" class="half">
@@ -204,7 +220,11 @@
       </section>
 
       <section class="half">
-        <img style="max-height: 400px; object-fit: contain;" src="./assets/img/colete.jpg" alt="" />
+        <img
+          style="max-height: 400px; object-fit: contain"
+          src="./assets/img/colete.jpg"
+          alt=""
+        />
         <div class="text">
           <h2 class="title">Identificação e equipamentos</h2>
           <p>
