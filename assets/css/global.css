@@ -16,7 +16,8 @@
   --blue-800: #2c4c5b;
 
   --shadow-b: 0px 15px 15px -4px #000000;
-  --filter-white: invert(94%) sepia(16%) saturate(429%) hue-rotate(240deg) brightness(118%) contrast(100%);
+  --filter-white: invert(94%) sepia(16%) saturate(429%) hue-rotate(240deg)
+    brightness(118%) contrast(100%);
 }
 
 @font-face {
@@ -78,7 +79,8 @@ a:hover {
   filter: brightness(1.1) contrast(1.2);
 }
 
-img, video {
+img,
+video {
   width: 100%;
 }
 
@@ -150,7 +152,7 @@ section {
 #menu {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(255,255,255,0.95);
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 1rem;
   border-left: 1px solid var(--gray-600);
   transition: right 0.5s ease-out;
@@ -254,6 +256,6 @@ footer {
   }
 
   nav button {
-    display: block
+    display: block;
   }
 }
