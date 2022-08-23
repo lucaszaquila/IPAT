@@ -1,29 +1,50 @@
 h1 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .clients {
-    background-color: var(--blue-800);
-    padding: 2rem;
-    width: fit-content;
-    margin: 0 auto;
-    border-radius: 5px;
+  background-color: var(--blue-800);
+  padding: 2rem;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 5px;
 
-    display: grid;
-    grid-template-columns: repeat(4, 200px);
-    justify-content: center;
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  justify-content: center;
+  gap: 1rem;
 }
 
 .clients > div {
-    border-radius: 5px;
-    background-color: var(--white);
-    padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--white);
+  padding: 1rem;
+  min-height: 200px;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.clients > div img {
-    max-height: 200px;
+
+
+@media screen and (max-width: 1080px) {
+  .clients {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .clients {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .clients {
+    grid-template-columns: 1fr;
+  }
+
+  .clients > div {
+    min-height: 0;
+  }
 }
