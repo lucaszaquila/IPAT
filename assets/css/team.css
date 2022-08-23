@@ -54,3 +54,23 @@ h2 {
 .members span:last-child {
   font-size: 0.8rem;
 }
+
+@media screen and (max-width: 1080px) {
+  .members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .members {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .members {
+    grid-template-columns: 1fr;
+  }
+}
