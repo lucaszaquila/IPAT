@@ -29,3 +29,9 @@ ul li + li {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
+
+  @media screen and (max-width: 1080px) {
+    .half {
+        grid-template-columns: 1fr;
+    }
+  }
