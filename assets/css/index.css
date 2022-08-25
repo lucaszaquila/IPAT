@@ -8,7 +8,7 @@
 }
 
 #ipat > div {
-  width: 45%;
+  width: 50%;
   background-color: var(--blue-800);
   color: var(--white);
   padding: 2rem;
@@ -71,14 +71,16 @@
 }
 
 #group > div {
-  width: 70%;
+  width: 60%;
   background-color: var(--blue-800);
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 5px;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
 
   position: relative;
   top: -2rem;
@@ -86,7 +88,6 @@
 
 #group > div p {
   color: var(--white);
-  max-width: 80%;
   font-size: 0.9rem;
   font-weight: 700;
 }
@@ -100,6 +101,7 @@
 #group .card {
   background-color: var(--blue-300);
   width: 30%;
+  padding: 1rem;
   border-radius: 5px;
 
   display: flex;
@@ -129,13 +131,7 @@
   }
 
   #group > div {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 1rem;
-  }
-
-  #group > div p {
-    max-width: none;
+    top: -5rem;
   }
 
   #group .card {

@@ -201,7 +201,6 @@
 @media screen and (max-width: 1080px) {
   .text {
     width: 100%;
-    align-items: center;
   }
 
   .text p {
@@ -222,7 +221,7 @@
     order: -1;
   }
 
-  #types > :last-child,
+  #types > .half > :last-child,
   #sample > :last-child {
     order: 0;
   }
