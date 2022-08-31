@@ -141,6 +141,7 @@ nav menu li.active {
 
 main {
   margin-top: 2rem;
+  min-height: calc(80vh);
 }
 
 section {
