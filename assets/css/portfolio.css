@@ -28,7 +28,7 @@ h1 {
 
 @media screen and (max-width: 1080px) {
   .clients {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
   
   .clients > div {
@@ -38,13 +38,13 @@ h1 {
 
 @media screen and (max-width: 720px) {
   .clients {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media screen and (max-width: 480px) {
   .clients {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .clients > div {
